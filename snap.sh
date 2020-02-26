@@ -1,4 +1,4 @@
-!/bin/bash
+#!/bin/bash
 cd /shun/snap2html/DiogenesList-master/
 python /shun/snap2html/DiogenesList-master/diogeneslist.py /shun/GD index
 sed -i "s#\[LINK ROOT\]#https://ak.bk201.cf#g"  /shun/snap2html/DiogenesList-master/index.html
