@@ -1,14 +1,14 @@
 #!/bin/bash
-tmux a -t snap
-python3 /shun/snap2html/DiogenesList-master/diogeneslist.py /root/rclone/00 index
-#sed -i "s#\[LINK ROOT\]#https://ak.bk201.cf#g"  /shun/snap2html/DiogenesList-master/index.html
-#sed -i "s#\[LINK PROTOCOL\]##g"  /shun/snap2html/DiogenesList-master/index.html
-#sed -i "s#\[SOURCE ROOT\]##g"  /shun/snap2html/DiogenesList-master/index.html
-#sed -i "s#\\\\\\\root\\\\\\\rclone\\\\\\\00##g"  /shun/snap2html/DiogenesList-master/index.html
-#sed -i "s#1>index#1>呵哒!劳资转身就是一脚!#g" /shun/snap2html/DiogenesList-master/index.html
-#sed -i "s#e>index#e>小圈子影视分享#g" /shun/snap2html/DiogenesList-master/index.html
-cp /shun/snap2html/DiogenesList-master/index.html /shun/snapGit/
-cd /shun/snapGit
+cd /root/snap2html/DiogenesList-master/
+python3 /root/snap2html/DiogenesList-master/diogeneslist.py /root/rclone/00 index  "想要我的宝藏吗?来偷吧!" "https://bk.bk201.cf/"
+#sed -i "s#\[LINK ROOT\]#http://pan.bk201.cf#g"  /root/snap2html/DiogenesList-master/index.html
+#sed -i "s#\[LINK PROTOCOL\]##g"  /root/snap2html/DiogenesList-master/index.html
+#sed -i "s#\[SOURCE ROOT\]##g"  /root/snap2html/DiogenesList-master/index.html
+#sed -i "s#\\\\\\\root\\\\\\\rclone\\\\\\\00##g"  /root/snap2html/DiogenesList-master/index.html
+#sed -i "s#1>index#1>劳资转身就是一脚!#g" /root/snap2html/DiogenesList-master/index.html
+#sed -i "s#e>index#e>啊哒!#g" /root/snap2html/DiogenesList-master/index.html
+cp /root/snap2html/DiogenesList-master/index.html /root/snapGit/
+cd /root/snapGit
 git add .
 git commit -m 'snap2htmlDailyUpdate'
 git push  https://github.com/sorrymyself/snap.git
