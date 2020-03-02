@@ -11,4 +11,4 @@ cp /root/snap2html/DiogenesList-master/index.html /root/snapGit/
 cd /root/snapGit
 git add .
 git commit -m 'snap2htmlDailyUpdate'
-git pull origin master
+git push  https://github.com/sorrymyself/htmltest.git
