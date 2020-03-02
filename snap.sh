@@ -1,6 +1,6 @@
 #!/bin/bash
 cd /root/snap2html/DiogenesList-master/
-python3 /root/snap2html/DiogenesList-master/diogeneslist.py /root/rclone/00 index  "想要我的宝藏吗?来偷吧!" "https://bk.bk201.cf/"
+python3 /root/snap2html/DiogenesList-master/diogeneslist.py /root/rclone/00 index
 #sed -i "s#\[LINK ROOT\]#http://pan.bk201.cf#g"  /root/snap2html/DiogenesList-master/index.html
 #sed -i "s#\[LINK PROTOCOL\]##g"  /root/snap2html/DiogenesList-master/index.html
 #sed -i "s#\[SOURCE ROOT\]##g"  /root/snap2html/DiogenesList-master/index.html
